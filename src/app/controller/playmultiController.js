@@ -2,7 +2,7 @@ const songSchema = require('../models/Song');
 const Room = require('../models/Room'); 
 const User = require('../models/User');
 const UserGoogle = require('../models/UserGoogle');
-const { io, app } = require('../..');
+const { io } = require('../..');
 let roomid = "";
 let room = [];
 
